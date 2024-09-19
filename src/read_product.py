@@ -27,3 +27,4 @@ if __name__ == '__main__':
     info = read_json(file_json_product)
     json_product = create_objects_from_json(info)
     print(json_product)
+

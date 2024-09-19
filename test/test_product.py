@@ -1,3 +1,8 @@
+import pytest
+
+from src.product import Product
+
+
 def test_product(product):
     assert product.name == "55\" QLED 4K"
     assert product.description == "Фоновая подсветка"

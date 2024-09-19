@@ -14,7 +14,7 @@ def first_category():
             Product("Iphone 15", "512GB, Gray space", 210000.0, 8),
             Product("Xiaomi Redmi Note 11", "1024GB, Синий", 31000.0, 14)
         ]
-     )
+    )
 
 
 @pytest.fixture
