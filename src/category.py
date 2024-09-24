@@ -30,7 +30,7 @@ class Category:
     def products_in_list(self):
         return self.__list_product
         for product in self.__list_product:
-            product_str += f'\n{product.name}, {product.price} руб. Остаток: {product.quantity} шт.'
+            product_str += f'{product.name}, {product.price} руб. Остаток: {product.quantity} шт.\n'
         return product_str
 
     @property
