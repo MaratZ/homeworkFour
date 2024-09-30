@@ -18,7 +18,7 @@ def test_category_products_property(first_category):
 
 
 def test_category_str(first_category):
-    assert str(first_category) == "Смартфоны, колличество продуктов: 10 шт."
+    assert str(first_category) == "Смартфоны, колличество продуктов: 27 шт."
 
 
 def test_product_iterator(product_iterator):
